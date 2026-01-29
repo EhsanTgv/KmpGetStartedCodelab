@@ -18,6 +18,7 @@ plugins {
     alias(libs.plugins.kotlinAndroid)
     alias(libs.plugins.kotlinCompose)
     alias(libs.plugins.spotless)
+    alias(libs.plugins.skie) apply false
 }
 
 android {
